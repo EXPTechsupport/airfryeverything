@@ -8,6 +8,7 @@ body, header,nav, main, footer, h1, div, img, ul, figure, figcaption, section, a
     width: 20%;
     display: block;
     border-radius: 5%;
+    float: left;
 }
 
 #logo-title {
@@ -27,7 +28,9 @@ body, header,nav, main, footer, h1, div, img, ul, figure, figcaption, section, a
     padding-bottom: 1.2em;
 }
 
-nav {
+nav a {
+    text-decoration: none;
+    color: #e9d5b8;
 }
 
 nav li {
@@ -36,12 +39,22 @@ nav li {
 
 }
 
+.tablet-desktop {
+    display: none;
+}
+
+.menu-icon {
+    scale: 1.5em;
+}
+
 header, nav {
     background-color: #ca8c6a;
 }
 
 header h1 {
     text-align: center;
+    padding: 1.5em;
+    color: #e9d5b8;
 }
 
 body {
@@ -60,38 +73,46 @@ footer {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10%;
+    padding-top: 1.5em;
 }
 
-/* Tablet Media Query*/
 @media screen and (min-width: 768px) {
     .grid {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 10px
     }
-    .logo {
-        width: 10%;
+
+    .tablet-desktop {
+        display: inline-block;
     }
-    h1 {
-        font-size: 40px;
-        width: auto;
+
+    .mobile-nav {
+        display: none;
     }
+
 }
 
-/* Desktop Media Query */
+
+
 @media screen and (min-width: 1200px) {
     .grid {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 10px
     }
-    .logo {
-        width: 10%;
-    }
-    h1 {
-        width: auto;
-        text-align: center;
-        font-size: 100px;
+
+    .tablet-desktop {
+        display: inline-block;
         
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: block;
     }
 }
