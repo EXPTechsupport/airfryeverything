@@ -1,1 +1,71 @@
+<!DOCTYPE html>
 
+<html lang="en">
+<head>
+	<title>Final</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- Starts the mobile then use @media in css to make tablet and desktop-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"></head>
+
+<body>
+
+	<div id="container">
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav class="mobile-nav">
+            <div id="h-menu-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+		<!-- Use the header area for the website name or Logo -->
+		<header>
+            <div id="logo-title">
+                <img src="images/logo.png" alt="Air Fry Logo" class="logo">
+                <h1>Air Fried Dreams</h1>
+            </div>
+		</header>
+
+
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>			
+            <div class="grid">
+
+                <figure class="frame">
+                    <a href="classes.html"><img src="images/airfryer1.png" alt="group of fitness people" class="airfryer"></a>
+                    <figcaption class="pic-text"></figcaption>
+                </figure>
+    
+                <figure class="frame">
+                    <a href="nutrition.html"><img src="images/airfryer2.png" alt="healthy food in the shape of a heart" class="airfryer"></a>
+                    <figcaption class="pic-text"></figcaption>
+                </figure>
+    
+                <figure class="frame">
+                    <a href="contact.html"><img src="images/airfryer3.png" alt="personal trainer with a clipboard" class="airfryer"></a>
+                    <figcaption class="pic-text"></figcaption>
+                </figure>
+    
+            </div>
+		</main>
+
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+            <p>Email: </p>
+            <p>Phone: </p>
+		</footer>
+	
+	</div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
