@@ -1,1 +1,63 @@
+body, header,nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
+.logo {
+    width: 20%;
+    display: block;
+    border-radius: 5%;
+}
+
+#logo-title {
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#h-menu-links {
+    display: none;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+nav {
+}
+
+nav li {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+header, nav {
+    background-color: #ca8c6a;
+}
+
+header h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #eadac8;
+    font-family: roboto condensed;
+
+}
+
+footer {
+    background-color: #d2a976;
+}
+
+.airfryer {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
