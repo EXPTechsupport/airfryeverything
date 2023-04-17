@@ -62,21 +62,36 @@ footer {
     border-radius: 10%;
 }
 
+/* Tablet Media Query*/
 @media screen and (min-width: 768px) {
     .grid {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 10px
     }
-    
+    .logo {
+        width: 10%;
+    }
+    h1 {
+        font-size: 40px;
+        width: auto;
+    }
 }
 
-
-
+/* Desktop Media Query */
 @media screen and (min-width: 1200px) {
     .grid {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 10px
+    }
+    .logo {
+        width: 10%;
+    }
+    h1 {
+        width: auto;
+        text-align: center;
+        font-size: 100px;
+        
     }
 }
