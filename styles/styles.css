@@ -26,6 +26,7 @@ body, header,nav, main, footer, h1, div, img, ul, figure, figcaption, section, a
     display: none;
     padding-top: 1.2em;
     padding-bottom: 1.2em;
+    text-align: center;
 }
 
 nav a {
@@ -36,6 +37,7 @@ nav a {
 nav li {
     text-align: center;
     font-size: 2em;
+    display: inline-block;
 
 }
 
@@ -84,11 +86,20 @@ footer {
     }
 
     .tablet-desktop {
-        display: inline-block;
+        display: block;
     }
 
     .mobile-nav {
         display: none;
+    }
+
+    nav {
+        padding-top: 4em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: block;
     }
 
 }
@@ -103,12 +114,17 @@ footer {
     }
 
     .tablet-desktop {
-        display: inline-block;
-        
+        display: block;
+        width: 100%;
+        /* overflow: auto; */
     }
 
     .mobile-nav {
         display: none;
+    }
+
+    nav {
+        padding-top: 5em;
     }
 
     nav ul {
