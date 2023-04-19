@@ -104,6 +104,24 @@ main p, main h2 {
     text-align: center;
 }
 
+/* ES */
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+#letter, #comments{
+    background-color: #d2a976;
+    border: none;
+}
+/* ES*/
 @media screen and (min-width: 768px) {
     .grid {
         display: grid;
@@ -133,26 +151,6 @@ main p, main h2 {
     }
 
 }
-/* ES */
-.google-map {
-    padding-bottom: 50%;
-    position: relative;
-}
-
-.google-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-#letter, #comments{
-    background-color: #d2a976;
-    border: none;
-}
-/* ES*/
-
-
 
 @media screen and (min-width: 1200px) {
     .grid {
