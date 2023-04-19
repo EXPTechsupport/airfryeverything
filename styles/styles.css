@@ -34,6 +34,10 @@ nav a {
     color: #e9d5b8;
 }
 
+nav ul {
+    text-align: center;
+}
+
 nav li {
     text-align: center;
     font-size: 2em;
