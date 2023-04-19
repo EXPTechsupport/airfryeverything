@@ -84,6 +84,8 @@ body {
 
 footer {
     background-color: #d2a976;
+    text-align: center;
+    padding: 1em 0 1em 0;
 }
 
 .airfryer {
@@ -95,6 +97,7 @@ footer {
     padding-top: 1.5em;
 }
 
+/* AW */
 figure {
     text-align: center;
     padding-top: 2em;
@@ -103,6 +106,28 @@ figure {
 main p, main h2 {
     text-align: center;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* AW */
 
 /* ES */
 .google-map {
@@ -122,6 +147,16 @@ main p, main h2 {
     border: none;
 }
 /* ES*/
+
+.grid-recipes {
+    padding: 10%;
+}
+
+.adjust {
+    width: 70%;
+    border-radius: 10%;
+}
+
 @media screen and (min-width: 768px) {
     .grid {
         display: grid;
@@ -176,5 +211,9 @@ main p, main h2 {
     nav ul {
         list-style-type: none;
         display: block;
+    }
+
+    .logo {
+        width: 15%;
     }
 }
