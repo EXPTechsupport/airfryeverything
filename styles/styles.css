@@ -69,6 +69,19 @@ body {
 
 }
 
+.aboutus {
+    font-size: 1.5em;
+}
+
+.portfolios {
+    display: block;
+}
+
+.portfolios img {
+    width: 75%;
+    float: center;
+}
+
 footer {
     background-color: #d2a976;
 }
@@ -113,6 +126,10 @@ main p, main h2 {
     nav ul {
         list-style-type: none;
         display: block;
+    }
+    
+    .portfolios img {
+        width: 50%;
     }
 
 }
