@@ -87,6 +87,10 @@ figure {
     padding-top: 2em;
 }
 
+main p, main h2 {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .grid {
         display: grid;
