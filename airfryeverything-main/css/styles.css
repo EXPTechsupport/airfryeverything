@@ -75,11 +75,22 @@ body {
 
 .portfolios {
     display: block;
+    text-align: center;
 }
 
 .portfolios img {
     width: 75%;
     float: center;
+}
+
+.mlportfolio {
+    display: block;
+    float: center;
+    text-align: center;
+}
+
+.mlportfolio img {
+    width: 100%;
 }
 
 footer {
@@ -181,8 +192,18 @@ tbody tr:nth-child(even) {
         display: block;
     }
     
-    .portfolios img {
+   .portfolios img {
         width: 50%;
+        float: center;
+    }
+
+    .mlportfolio {
+        text-align: center;
+    }
+
+    .mlportfolio img {
+        width: 25%;
+        float: center;
     }
 
 }
