@@ -1,0 +1,169 @@
+body, header,nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    /* background-color: brown; */
+    background-image: linear-gradient(brown, rgb(214, 103, 103));
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+
+.logo {
+    width: 50%;
+    /* display: block; */
+    border-radius: 10px;
+    float: left;
+}
+
+#container {
+    background-color: rgb(214, 103, 103);
+}
+
+body {
+    background-color: rgb(214, 103, 103);
+    background-image: linear-gradient(rgb(214, 103, 103), brown, rgb(214, 103, 103));
+
+}
+
+main {
+    background-image: linear-gradient(rgb(214, 103, 103), brown);
+
+}
+
+#about, #work, #hobbies, #contact {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#hideAbout {
+    display: none;
+    text-align: center;
+}
+
+#hideWork {
+    display: none;
+    text-align: center;
+}
+
+#hideHobbies {
+    display: none;
+    text-align: center;
+}
+
+#hideContact {
+    display: none;
+    text-align: center;
+}
+
+
+
+/* .grid {
+    grid-template-columns: auto auto;
+} */
+
+@media screen and (min-width: 768px) {
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    nav {
+        padding-top: 4em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: block;
+    }
+
+    header h1 {
+        font-size: 5em;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #about, #work, #hobbies, #contact {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    #hideAbout {
+        display: none;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #hideWork {
+        display: none;
+        text-align: center;
+        font-size: 2em;
+
+    }
+    
+    #hideHobbies {
+        display: none;
+        text-align: center;
+        font-size: 2em;
+
+    }
+    
+    #hideContact {
+        display: none;
+        text-align: center;
+        font-size: 2em;
+
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .tablet-desktop {
+        display: block;
+        width: 100%;
+        /* overflow: auto; */
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    nav {
+        /* padding-top: 5em; */
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: block;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    #about, #work, #hobbies, #contact {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    /* .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    } */
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Final</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/awstyles.css">
+
+	<!-- Starts the mobile then use @media in css to make tablet and desktop-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"></head>
+
+<body>
+
+	<div id="container">
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+
+        <!-- Use the header area for the website name or Logo -->
+        <header class="sticky">
+            <h1>Andrew Wilks</h1>
+        </header>
+
+        
+        
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+            <div class="grid">
+                <div class="sticky">
+                    <img src="images/andrew.jpg" alt="picture of Andrew Wilks" class="logo">
+
+                </div>
+                <hr><h3 onclick="showAbout()" id="about">About me</h3><hr>
+                <div id="hideAbout">
+                    <p>Hi! My name is Andrew Wilks and I am a student at SUU! I love sports and anything outdoors.</p><hr>
+                </div>
+    
+                <h3 onclick="showWork()" id="work">Work</h3><hr>
+                <div id="hideWork">
+                    <h4>I currently have two jobs:</h4>
+                    <p>Spoon Rings by Wilks</p>
+                    <p>Teacher Assistant/Grader</p><hr>
+                </div>
+
+                <h3 onclick="showHobbies()" id="hobbies">Hobbies</h3><hr>
+                <div id="hideHobbies">
+                    <h4>My favorite things to do are:</h4>
+                    <p>Volleyball, soccer, FIFA<br>work, hike, workout</p><hr>
+                </div>
+    
+                <h3 onclick="showContact()" id="contact">Contact</h3><hr>
+                <div id="hideContact">
+                    <h4>How to contact me:</h4>
+                    <p>(801) 362-8705</p>
+                    <p>wilksa@gmail.com</p><hr>
+                </div>
+
+            </div>			
+
+		</main>
+
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+            
+		</footer>
+	
+	</div>
+    <script src="scripts/awscript.js"></script>
+</body>
+</html>
