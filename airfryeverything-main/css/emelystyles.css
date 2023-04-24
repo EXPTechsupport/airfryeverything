@@ -1,0 +1,205 @@
+body, header,nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 20%;
+    display: block;
+    border-radius: 5%;
+    float: left;
+}
+
+#logo-title {
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#h-menu-links {
+    display: none;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e9d5b8;
+}
+
+nav li {
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.menu-icon {
+    scale: 1.5em;
+}
+
+header, nav {
+    background-color: #ca8c6a;
+}
+
+header h1 {
+    text-align: center;
+    padding: 1.5em;
+    color: #e9d5b8;
+}
+
+body {
+    background-color: #eadac8;
+    font-family: roboto condensed;
+
+}
+
+footer {
+    background-color: #d2a976;
+}
+
+.airfryer {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    padding-top: 1.5em;
+}
+/* ES  map style*/
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+#letter, #comments{
+    background-color: #d2a976;
+    border: none;
+    text-align: center;
+}
+.label{
+    background-color:#d2a976;
+}
+/* ES*/
+
+/*Styling for my page-Emely*/
+  .mypicture{
+    width: 100%;
+    height: auto;
+  }
+  h3{
+    text-align: center;
+    text-decoration: underline;
+  }
+/*End of Emelys changes */
+
+@media screen and (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px
+    }
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    nav {
+        padding-top: 4em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: block;
+    }
+    
+    footer{
+        font-size: 0.75em;
+        text-align: center;
+        color: Black;
+    }
+    /*Styling for emelys page*/
+    .mypicture{
+        width: 90%;
+        height: auto;
+    }
+    .column {
+        float: left;
+        width: 40%;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    /* end of emelys page styles*/
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px
+    }
+
+    .tablet-desktop {
+        display: block;
+        width: 100%;
+        /* overflow: auto; */
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    nav {
+        padding-top: 5em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: block;
+    }
+    /*Styling for emelys page*/
+    .column {
+        float: left;
+        width: 30%;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    /*End of emelys styles*/
+}
+/* footer styles(Emely)*/ 
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    color: Black;
+}
