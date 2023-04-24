@@ -140,7 +140,7 @@ tbody tr:nth-child(even) {
 }
 /* AW */
 
-/* ES */
+/* ES map styles */
 .google-map {
     padding-bottom: 50%;
     position: relative;
@@ -157,7 +157,14 @@ tbody tr:nth-child(even) {
     background-color: #d2a976;
     border: none;
 }
-/* ES*/
+/* style for contact image*/
+
+.teamimage{
+    width: 100%;
+    height: auto;
+    border: solid white;
+}
+/*end of emelys style*/
 
 .grid-recipes {
     padding: 10%;
