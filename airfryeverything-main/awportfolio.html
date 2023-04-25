@@ -4,10 +4,14 @@
 <head>
 	<title>Final</title>
 	<meta charset="utf-8">
+
+    <!-- link to stylesheet -->
 	<link rel="stylesheet" href="css/awstyles.css">
 
 	<!-- Starts the mobile then use @media in css to make tablet and desktop-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Imports a font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"></head>
 
 <body>
@@ -24,16 +28,19 @@
         
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
+            <!-- Main picture. classes can be used but aren't -->
             <div class="grid">
                 <div class="sticky">
                     <img src="images/andrew.jpg" alt="picture of Andrew Wilks" class="logo">
 
+                <!-- uses java script to show and hide items. If you click one item and another is opened, it will hide the opened one-->
                 </div>
                 <hr><h3 onclick="showAbout()" id="about">About me</h3><hr>
                 <div id="hideAbout">
                     <p>Hi! My name is Andrew Wilks and I am a student at SUU! I love sports and anything outdoors.</p><hr>
                 </div>
-    
+
+                <!-- uses java script to show and hide items. If you click one item and another is opened, it will hide the opened one-->
                 <h3 onclick="showWork()" id="work">Work</h3><hr>
                 <div id="hideWork">
                     <h4>I currently have two jobs:</h4>
@@ -41,12 +48,13 @@
                     <p>Teacher Assistant/Grader</p><hr>
                 </div>
 
+                <!-- uses java script to show and hide items. If you click one item and another is opened, it will hide the opened one-->
                 <h3 onclick="showHobbies()" id="hobbies">Hobbies</h3><hr>
                 <div id="hideHobbies">
                     <h4>My favorite things to do are:</h4>
                     <p>Volleyball, soccer, FIFA<br>work, hike, workout</p><hr>
                 </div>
-    
+                <!-- uses java script to show and hide items. If you click one item and another is opened, it will hide the opened one-->
                 <h3 onclick="showContact()" id="contact">Contact</h3><hr>
                 <div id="hideContact">
                     <h4>How to contact me:</h4>
@@ -64,6 +72,8 @@
 		</footer>
 	
 	</div>
+
+    <!-- Java Script import -->
     <script src="scripts/awscript.js"></script>
 </body>
 </html>
