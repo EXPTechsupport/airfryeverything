@@ -164,6 +164,33 @@ tbody tr:nth-child(even) {
     height: auto;
     border: solid white;
 }
+
+/* icon style*/
+ .fa {
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* change color */
+  
+  .fa-facebook {
+    background: #d29a72;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #ca8c6a
+    ;
+    color: white;
+  } 
 /*end of emelys style*/
 
 .grid-recipes {
