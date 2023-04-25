@@ -4,17 +4,23 @@
 <head>
 	<title>Final</title>
 	<meta charset="utf-8">
+
+    <!-- Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Styles sheet link -->
 	<link rel="stylesheet" href="css/styles.css">
 
 	<!-- Starts the mobile then use @media in css to make tablet and desktop-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Imports font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"></head>
 
 <body>
 
 	<div id="container">
-        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <!-- Mobile nav -->
         <nav class="mobile-nav">
             <div id="h-menu-links">
                 <ul>
@@ -25,6 +31,8 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+
+            <!-- Used for the hamburger menu -->
             <a class="menu-icon" onclick="hamburger()">
                 <div>&#9776;</div>
             </a>
@@ -37,6 +45,7 @@
             </div>
         </header>
         
+        <!-- Tablet/Desktop navigation bar -->
         <nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a>&nbsp;&nbsp;</li>
@@ -52,15 +61,20 @@
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>	
 
-            <!-- Jumbotron-->
+            <!-- Jumbotron 1-->
             <div class="mt-4 p-5 bg-black text-white rounded text-center">
                 <h1>HEAT WAVE</h1>
             </div>
             
+            <!-- First line of grid -->
             <div class="grid">
 
                 <figure class="frame">
+
+                    <!-- Imports image, done multiple times below-->
                     <a href="classes.html"><img src="images/catalog1.png" alt="catalog item 1" class="airfryer"></a>
+
+                    <!-- Caption for the image, done multiple times below-->
                     <figcaption class="pic-text">
                         <h3>HeatWaveMax2000</h3>
                         <ul>
@@ -94,11 +108,12 @@
     
             </div>
 
-            <!-- Jumbotron-->
+            <!-- Jumbotron 2 -->
             <div class="mt-4 p-5 bg-black text-white rounded text-center">
                 <h1>SPEEDY FRY</h1>
             </div>
 
+            <!-- Second line of grid -->
             <div class="grid">
 
                 <figure class="frame">
@@ -136,11 +151,12 @@
     
             </div>
 
-            <!-- Jumbotron-->
+            <!-- Jumbotron 3 -->
             <div class="mt-4 p-5 bg-black text-white rounded text-center">
                 <h1>POWER AIR</h1>
             </div>
 
+            <!-- Third line of grid -->
             <div class="grid">
 
                 <figure class="frame">
@@ -189,6 +205,9 @@
 		</footer>
 	
 	</div>
+
+    <!-- Link to JavaScript-->
     <script src="scripts/script.js"></script>
 </body>
 </html>
+ 
